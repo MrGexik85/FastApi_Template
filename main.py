@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
 
-from settings import PORT, DEBUG
+from core.settings import PORT, DEBUG
 
 app = FastAPI()
 
